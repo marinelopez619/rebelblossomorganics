@@ -331,6 +331,7 @@ button {
 
 .header_full_banne {
      padding-left: 150px;
+     background: url(../images/parchment_paper.png);
 }
 
 .header {
@@ -478,6 +479,14 @@ ul.conta_top li a {
      line-height: 65px;
 }
 
+.mobile_board {
+     display: none;
+     text-align: center;
+     
+}
+
+
+
 .relative h3 {
      padding-bottom: 43px;
      font-size: 80px;
@@ -565,14 +574,12 @@ iframe {
 /** about section **/
 
 .about {
-     
-     background: url(../images/field_of_flowers.png);
      background-color: #fff;
      background-repeat: no-repeat;
      position:relative;
      background-position: 85%;
      padding: 90px;
-     margin-top: 180px;
+     margin-top: 250px;
 }
 
 .about::before {
@@ -583,7 +590,7 @@ iframe {
      width: 360px;
      height: 212px;
      top: 10px;
-     left:325px;
+     left:215px;
 }
 
 .about .titlepage {

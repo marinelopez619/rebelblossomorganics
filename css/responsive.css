@@ -57,6 +57,16 @@ File Name: responsive.css
     }
 }
 
+@media (min-width: 768px) and (max-width: 1357px) {
+.di_mr03{
+    display:none;
+}  
+
+.about{
+    background: #fff;
+}
+
+}
 @media (min-width: 576px) and (max-width: 767px) {
     .header {
         padding: 27px 0px;
@@ -64,6 +74,10 @@ File Name: responsive.css
     }
     .header_full_banne {
         padding-left: 0;
+    }
+    .di_mr02 {
+        display:inherit;
+        margin-top: 100px;
     }
     .di_mr01 {
         display: none;
@@ -86,10 +100,15 @@ File Name: responsive.css
     #carouselExampleIndicators .carousel-control-next {
         right: 37%;
     }
+
     .about_img,
     .banner_img {
         margin-top: 30px;
     }
+
+    .about{
+    background: #fff;
+}
     .navigation.navbar {
         float: right;
         margin-top: 33px;
@@ -152,6 +171,10 @@ File Name: responsive.css
     .header_full_banne {
         padding-left: 0;
     }
+    .di_mr02 {
+        display:inherit;
+        margin-top: 30px;
+    }
     .di_mr01 {
         display: none;
     }
@@ -177,9 +200,16 @@ File Name: responsive.css
     .titlepage h2 {
         font-size: 32px;
     }
+
     .about_img,
     .banner_img {
         margin-top: 30px;
+    }
+    .about{
+        background: #fff;
+        padding-left: 35px;
+        padding-right: 35px;
+        margin-top: 50px;
     }
     .about::before {
         background: transparent;
