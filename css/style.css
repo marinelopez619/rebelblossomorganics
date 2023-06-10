@@ -561,6 +561,7 @@ iframe {
 }
 .wirecontainer{
      text-align: center;
+     margin-top: 30px;
 }
 .wire2 {
      background: url(../images/barbedwire.png);
@@ -570,7 +571,18 @@ iframe {
      left: 10%;
 }
 
+.tab_background{
+     background: url(../images/parchment_paper.png);
+     margin-bottom: 20px;
+     padding-bottom: 50px;
+     padding-top: 50px;
+}
 
+.products_background{
+     background: url(../images/parchment_paper.png);
+     margin-top: 250px;
+     padding-bottom: 50px;
+}
 /** about section **/
 
 .about {
@@ -729,7 +741,28 @@ iframe {
 /** end contact **/
 
 
-/** honey_bg **/
+/** lisa_bg **/
+
+.lisa_bg {
+     margin: 0 auto;
+     display: block;
+}
+
+.lisa_bg figure {
+     margin: 0;
+     margin-bottom: 100px;
+     margin-top: 100px;
+}
+
+.lisa_bg figure img {
+     margin: 0 auto;
+     display: block;
+}
+
+
+/** end lisa_bg **/
+
+/** honey **/
 
 .honey_bg {
      margin: 0 auto;
@@ -738,6 +771,8 @@ iframe {
 
 .honey_bg figure {
      margin: 0;
+     margin-bottom: 100px;
+     margin-top: 100px;
 }
 
 .honey_bg figure img {
