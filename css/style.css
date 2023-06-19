@@ -553,22 +553,17 @@ iframe {
 /** end banner section **/
 
 /** barbed wire **/
-.wire1 {
-     background: url(../images/barbedwire.png);
-     background-repeat: repeat;
-     width: 90%;
-     margin-bottom: 50px;
-}
+
 .wirecontainer{
      text-align: center;
-     margin-top: 30px;
+     margin-top: 20px;
 }
 .wire2 {
      background: url(../images/barbedwire.png);
-     background-repeat: repeat;
-     width: 80%;
+     background-repeat: repeat-x;
+     width: 100%;
      position: absolute;
-     left: 10%;
+
 }
 
 .tab_background{
