@@ -294,7 +294,7 @@ button {
      height: 100%;
 }
 
-.loader {
+.loading_center_space{
      height: 100%;
      width: 100%;
      position: absolute;
@@ -305,8 +305,57 @@ button {
      align-items: center;
 }
 
-.loader img {
-     width: 280px;
+.loader {
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border-top: 5px solid #c5255c;
+  position: relative;
+  animation: load 2s linear infinite;
+}
+
+.loader::before,.loader::after {
+  content: '';
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+.loader::before {
+  border-top: 5px solid #d96226;
+  transform: rotate(120deg);
+}
+
+.loader::after {
+  border-top: 5px solid #1d2649;
+  transform: rotate(240deg);
+}
+
+.loader span {
+  position: absolute;
+  font-size: small;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  animation: a2 2s linear infinite;
+}
+
+@keyframes load {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes a2 {
+  to {
+    transform: rotate(-360deg);
+  }
 }
 
 
@@ -376,6 +425,7 @@ button {
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
      color: #d96226;;
 }
+
 
 .di_no {
      display: none;
@@ -619,10 +669,6 @@ iframe {
      padding-bottom: 59px;
 }
 
-.about_img figure {
-     
-}
-
 
 /** end about section **/
 
@@ -671,9 +717,11 @@ iframe {
 
 /** contact **/
 
-.contact {
+.stores {
      padding-bottom: 90px;
      padding-top: 88px;
+     background: url(../images/parchment_paper.png);
+     margin-top: 250px;
 }
 
 .main_form {
