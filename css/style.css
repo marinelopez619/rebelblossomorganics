@@ -258,6 +258,10 @@ button {
      border-radius: 30px;
 }
 
+.read_more_facebook{
+     margin-bottom: 50px;
+}
+
 .read_more:hover {
      background: #1d2649;
      color: #fff;
