@@ -244,7 +244,7 @@ button {
 
 .read_more {
      font-size: 17px;
-     background: #d96226;;
+     background: #B85828;
      max-width: 171px;
      width: 100%;
      height: 48px;
@@ -327,7 +327,7 @@ button {
 }
 
 .loader::before {
-  border-top: 5px solid #d96226;
+  border-top: 5px solid #B85828;
   transform: rotate(120deg);
 }
 
@@ -416,14 +416,14 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-     color: #d96226;;
+     color: #B85828;;
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-     color: #d96226;;
+     color: #B85828;;
 }
 
 
@@ -582,7 +582,7 @@ ul.conta_top li a {
 #carouselExampleIndicators .carousel-control-next:hover,
 #carouselExampleIndicators .carousel-control-prev:focus,
 #carouselExampleIndicators .carousel-control-prev:hover {
-     color: #d96226;;
+     color: #B85828;;
 }
 
 .banner_img {
@@ -755,7 +755,7 @@ iframe {
 .main_form .send_btn {
      font-size: 18px;
      transition: ease-in all 0.5s;
-     background-color: #d96226;;
+     background-color: #B85828;;
      text-transform: uppercase;
      color: #fff;
      max-width: 202px;
@@ -884,7 +884,7 @@ ul.social_icon li a i {
 
 ul.social_icon li a:hover {
      color: #fff;
-     background: #d96226;;
+     background: #B85828;;
      transition: ease-in all 0.5s;
 }
 
@@ -913,7 +913,7 @@ ul.fullink li a {
 }
 
 ul.fullink li a:hover {
-     color: #d96226;;
+     color: #B85828;;
 }
 
 ul.conta {
@@ -940,7 +940,7 @@ ul.conta li i {
 }
 
 ul.conta li a:hover {
-     color: #d96226;
+     color: #B85828;
 }
 
 
@@ -966,7 +966,7 @@ ul.conta li a:hover {
 .subsci_btn {
      font-size: 17px;
      transition: ease-in all 0.5s;
-     background-color: #d96226;
+     background-color: #B85828;
      color: #fff;
      max-width: 270px;
      width: 100%;
@@ -1005,7 +1005,7 @@ ul.conta li a:hover {
 }
 
 .copyright a:hover {
-     color: #d96226;
+     color: #B85828;
 }
 
 
