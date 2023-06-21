@@ -535,8 +535,6 @@ ul.conta_top li a {
      
 }
 
-
-
 .relative h3 {
      padding-bottom: 43px;
      font-size: 80px;
@@ -599,6 +597,11 @@ iframe {
      
 }
 
+#button_holder {
+  display: grid;
+  place-items: center;
+}
+
 
 /** end banner section **/
 
@@ -637,6 +640,14 @@ iframe {
      background-position: 85%;
      padding: 90px;
      margin-top: 250px;
+}
+.about_subpage {
+     background-color: #fff;
+     background-repeat: no-repeat;
+     position:relative;
+     background-position: 85%;
+     padding: 90px;
+     margin-top: 0px;
 }
 
 .about::before {
