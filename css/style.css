@@ -385,6 +385,11 @@ button {
 .header_full_banne {
      padding-left: 150px;
      background: url(../images/parchment_paper.png);
+     
+}
+
+.header_full_banne, .about, .quality, .stores, .about_subpage, .contact {
+     box-shadow:  10px 10px 10px 10px rgba(0, 0, 0, 0.4);
 }
 
 .header {
